@@ -1,29 +1,70 @@
 * {
     margin: 0;
+    /* font-family: sans-serif; */
 }
 
 nav {
     align-items: center;
-    background-color: #e98251;
+    background-color: rgba(255, 255, 255, 0.322);
     display: flex;
-    font-family: 'VT323', monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 50px;
     justify-content: space-evenly;
 }
 
-a {
-    color: #17386d;
-    font-size: 20pt;
+nav a {
+    color: #000000;
+    font-size: 16pt;
     text-decoration: none;
     letter-spacing: .1em;
+    text-transform: capitalize;
 }
 
 a:hover {
-    color: #fff;
+    color: rgb(33, 181, 250);
 }                                     
 
 header {
-    background-image: url("../images/banner.jpg");
+    background-image: url("../images/tech.png");
     background-size: cover;
-    height: 400px;
+    height: 100vh;
 }
+
+section {
+    background-color: rgb(150, 169, 173);
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div {
+    text-align: center;
+    width: 40%;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+div ul {
+    list-style-image: url("/images/ninja.png");
+}
+
+ul li:nth-child(odd){
+    color: #333;
+}
+
+
+
+
+
+
+
+
+
