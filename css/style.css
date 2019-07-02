@@ -1,6 +1,5 @@
 * {
     margin: 0;
-    font-family: ; 
 }
 
 nav {
@@ -21,6 +20,10 @@ a {
 
 a:hover {
     color: #fff;
+}                                     
+
+header {
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    height: 400px;
 }
-
-
