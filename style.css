@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    font-family: ; 
+}
+
+nav {
+    align-items: center;
+    background-color: #e98251;
+    display: flex;
+    font-family: 'VT323', monospace;
+    height: 50px;
+    justify-content: space-evenly;
+}
+
+a {
+    color: #17386d;
+    font-size: 20pt;
+    text-decoration: none;
+    letter-spacing: .1em;
+}
+
+a:hover {
+    color: #fff;
+}
+
+
